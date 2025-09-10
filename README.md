@@ -1,6 +1,7 @@
 <a id="readme-top"></a>
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Packagist](https://img.shields.io/packagist/v/bytenex/dynalog.svg)](https://packagist.org/packages/bytenex/dynalog)  
+[![ByteNexSolutions](https://img.shields.io/badge/ByteNexSolutions-Dynalog-yellow)](https://github.com/ByteNexSolutions/ByteNexSolutions-Dynalog)  
+[![Packagist](https://img.shields.io/packagist/v/bytenexsolutions/dynalog.svg)](https://packagist.org/packages/bytenexsolutions/dynalog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)  
 
 
 
@@ -60,9 +61,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About the package / Acerca del paquete
 
-Dynalog is a solutions to make Laravel logs channels dynamicaly, without declare on logging config file.
+__Dynalog__ is a solutions to make Laravel logs channels dynamicaly, without declare on logging config file.
 
-Dynalog es una solución para crear canales de logs en Laravel de forma dinámica, sin declaraciones en el archivo de 
+__Dynalog__ es una solución para crear canales de logs en Laravel de forma dinámica, sin declaraciones en el archivo de 
 configuracíon del logging.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,23 +77,23 @@ configuracíon del logging.
 ## Getting Started / Primeros pasos
 
 You do not need to publish any configuration files.
-DynaLog creates dynamic log channels organized by category and source (category / source).
+__DynaLog__ creates dynamic log channels organized by category and source (category / source).
 
 No es necesario publicar ningún archivo de configuración.
-DynaLog crea canales de registros (logs) dinámicos organizados por categoría y fuente (category / source).
+__DynaLog__ crea canales de registros (logs) dinámicos organizados por categoría y fuente (category / source).
 
-Automatically generated structure / Estructura generada automáticamente:
+__Automatically generated structure / Estructura generada automáticamente:__
 
 ```bash
 storage/logs/{category}/{source}/YYYY-MM-DD.log
 ```
-Example / Ejemplo
+__Example / Ejemplo__
 
 ```bash
 storage/logs/Payments/Stripe/2025-09-08.log
 ```
 
-Example of logs structure / Ejemplo de estructura de registros (logs)
+__Example of logs structure / Ejemplo de estructura de registros (logs)__
 
 ```bash
 storage/logs/
@@ -123,11 +124,11 @@ composer require bytenexsolutions/dynalog
 <!-- USAGE EXAMPLES -->
 ## Usage / Uso
 
-You can use the DynaLog facade to create a dynamic logger and log messages.
+You can use the __DynaLog__ facade to create a dynamic logger and log messages.
 
-Puedes usar la facade DynaLog para crear un logger dinámico y registrar mensajes.
+Puedes usar la facade __DynaLog__ para crear un logger dinámico y registrar mensajes.
 
-Example / Ejemplo
+__Example / Ejemplo__
 
 ```bash
 // Create a logger for the "Payments" category and "Stripe" source / Crear un logger para la categoría "Payments" y fuente "Stripe"
@@ -144,17 +145,17 @@ You can also call static methods of the facade directly.
 
 También puedes llamar directamente a los métodos estáticos de la facade.
 
-Example / Ejemplo
+__Example / Ejemplo__
 
 ```bash
 DynaLog::make('Users', 'Auth')->info('User login success', ['id' => 321]);
 ```
 
-By default DynaLog use "storage_path('logs')" and default days as 7. If you want to change please publish dynalog config file.
+By default __DynaLog__ use "storage_path('logs')" and default days as 7. If you want to change please publish dynalog config file.
 
-Por defecto, DynaLog utiliza «storage_path(“logs”)» y el número de días predeterminado es 7. Si desea cambiarlo, publique el archivo de configuración de DynaLog.
+Por defecto, __DynaLog__ utiliza «storage_path(“logs”)» y el número de días predeterminado es 7. Si desea cambiarlo, publique el archivo de configuración de DynaLog.
 
-Publish / Publicar
+__Publish / Publicar__
 
 ```bash
 php artisan vendor:publish --tag=dynalog-config
@@ -184,6 +185,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 ## Acknowledgments / Agradecimientos
 
 * [Best-Readme-Template](https://github.com/othneildrew/Best-README-Template)
+* [Shields.io](https://shields.io/badges)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
