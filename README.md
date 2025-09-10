@@ -1,7 +1,8 @@
 <a id="readme-top"></a>
 [![ByteNexSolutions](https://img.shields.io/badge/ByteNexSolutions-Dynalog-yellow)](https://github.com/ByteNexSolutions/ByteNexSolutions-Dynalog)  
-[![Packagist](https://img.shields.io/packagist/v/bytenexsolutions/dynalog.svg)](https://packagist.org/packages/bytenexsolutions/dynalog)
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)  
+[![Packagist](https://img.shields.io/packagist/v/bytenexsolutions/dynalog.svg?label=Packagist%20version)](https://packagist.org/packages/bytenexsolutions/dynalog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
+[![Author](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ByteNexSolutions/ByteNexSolutions-Dynalog/main/composer.json&query=$.authors[0].name&label=Author&color=green)](https://github.com/rchapon) 
 
 
 
