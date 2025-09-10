@@ -23,6 +23,6 @@ class DynaLogServiceProvider extends ServiceProvider
         // Publicar config
         $this->publishes([
             __DIR__ . '/../../config/dynalog.php' => config_path('dynalog.php'),
-        ], 'config');
+        ], 'dynalog-config');
     }
 }
