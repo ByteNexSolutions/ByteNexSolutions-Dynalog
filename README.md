@@ -127,7 +127,7 @@ composer require bytenexsolutions/dynalog
 
 You can use the __DynaLog__ facade to create a dynamic logger and log messages.
 
-Puedes usar la facade __DynaLog__ para crear un logger dinámico y registrar mensajes.
+Puedes usar el facade __DynaLog__ para crear un logger dinámico y registrar mensajes.
 
 __Example / Ejemplo__
 

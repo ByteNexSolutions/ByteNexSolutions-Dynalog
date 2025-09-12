@@ -19,7 +19,7 @@
         }
     ],
     "keywords": ["laravel", "logs", "logging", "dynamic", "bytenexsolutions","solutions"],
-    "homepage": "https://github.com/bytenexsolutions/dynalog",
+    "homepage": "https://github.com/ByteNexSolutions/ByteNexSolutions-Dynalog",
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
