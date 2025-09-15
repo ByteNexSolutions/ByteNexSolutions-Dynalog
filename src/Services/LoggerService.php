@@ -8,7 +8,7 @@ use ByteNexSolutions\DynaLog\Logging\DynamicLogger;
 
 class LoggerService
 {
-    protected LoggerInterfae $logger;
+    protected LoggerInterface $logger;
     protected string | null $level;
     protected int | null  $days;
     public function __construct(string $category, string $source, string $level, int $days)
