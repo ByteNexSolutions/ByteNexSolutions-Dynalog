@@ -9,8 +9,9 @@ use ByteNexSolutions\DynaLog\Logging\DynamicLogger;
 class LoggerService
 {
     protected LoggerInterface $logger;
-
-    public function __construct(string $category, string $source, string $level = null, int $days = null)
+    protected string | null $level;
+    protected int | null  $days;
+    public function __construct(string $category, string $source, string $level, int $days)
     {
         $this->logger = Log::build([
             'driver'   => 'custom',
