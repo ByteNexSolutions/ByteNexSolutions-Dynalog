@@ -132,9 +132,18 @@ Puedes usar el facade __DynaLog__ para crear un logger dinámico y registrar men
 __Example / Ejemplo__
 
 ```bash
+// Import DynaLog / Importar Dynalog
+use ByteNexSolutions\DynaLog\Facades\DynaLog;
+
 // Create a logger for the "Payments" category and "Stripe" source / Crear un logger para la categoría "Payments" y fuente "Stripe"
 $logger = DynaLog::make('Payments', 'Stripe');
+```
+```bash 
+or without Import / o sin importarlo
+$logger = \DynaLog::make('Payments', 'Stripe');
+```
 
+```bash
 // Record different log levels / Registrar diferentes niveles de log
 $logger->info('Payment process started', ['user_id' => 123]);
 $logger->debug('Payload received', ['payload' => $payload]);
